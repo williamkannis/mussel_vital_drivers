@@ -56,7 +56,7 @@ recruit_out <- readRDS("model_out/recruitment_SEM_final_output.rds")
 
 ## Cannons point ##
 cp_dem <- 
-  raster::raster("Mussel SDM rasters/elevation_distance_cannons.tif")/3.281  
+  raster::raster("Mussel SDM rasters/elevation_cannons.tif")/3.281  
 cp_head <- 
   raster::raster("Mussel SDM rasters/head_distance_cannons.tif ")/3.281  
 cp_main <- 
@@ -65,7 +65,7 @@ cp_main <-
 
 ## Sapelo island ##
 lp_dem <- 
-  raster::raster("Mussel SDM rasters/elevation_distance_sapelo.tif")/3.281  
+  raster::raster("Mussel SDM rasters/elevation_sapelo.tif")/3.281  
 lp_head <- 
   raster::raster("Mussel SDM rasters/head_distance_sapelo.tif")/3.281  
 lp_main <- 

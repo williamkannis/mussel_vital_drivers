@@ -27,6 +27,7 @@ rm(list = ls())
 library(dplyr)
 library(ggplot2)
 library(readxl)
+library(scales)
 
 
 ################################################################################
