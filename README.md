@@ -68,7 +68,7 @@ indirect effect sizes.
 
 <ins>Output:</ins> `model_out`
 
-
+<br>
 ### Spatial Analysis
 **Script:** `04_pop_vital_spatial_analysis.R`
 
@@ -85,6 +85,7 @@ Finally, SEM residuals are tested for spatial autocorretion using Moran's I.
 
 <ins>Output:</ins> `Prediction rasters`, `plots/cor`, `plots/moran_tables`
 
+<br>
 ### Plotting
 **NOTE:** Raw R plots and tables used to create manuscript figures can be found 
 in the `plots` directory.
