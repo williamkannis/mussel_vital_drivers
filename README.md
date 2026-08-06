@@ -23,7 +23,8 @@ Cite as:
 
 ## Installation
 
-Download and unzip all required data from the [Zenodo repository]() into the 
+Download and unzip all required data from the 
+[Zenodo repository](https://doi.org/10.5281/zenodo.21828495) into the 
 working directory. <ins>IMPORTANT:</ins> Retain existing folder structures
 
 <br>
