@@ -81,7 +81,7 @@ where Spearman’s correlation is calculated between all vitals and densities.
 Finally, SEM residuals are tested for spatial autocorretion using Moran's I.
 
 <ins>Input:</ins> `mussel_population_vital_data.xlsx`, `model_out`, 
-`Mussel SDM rasters`
+`Mussel SDM rasters`, `plot_parameters/site_coors.csv`
 
 <ins>Output:</ins> `Prediction rasters`, `plots/cor`, `plots/moran_tables`
 
