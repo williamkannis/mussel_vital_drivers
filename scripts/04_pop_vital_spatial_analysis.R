@@ -22,7 +22,6 @@ rm(list = ls())
 library(raster)
 library(dplyr)
 library(readxl)
-library(corrplot)
 library(spdep)
 
 
@@ -407,12 +406,6 @@ cor_mat_sp <-cor(cor_df,use = "na.or.complete",method = "spearman")
 cor.test(values(sdm), values(g),use = "na.or.complete",method = "spearman")
 cor.test(values(sdm), values(r),use = "na.or.complete",method = "spearman")
 cor.test(values(sdm), values(p),use = "na.or.complete",method = "spearman")
-
-### Plotting  ##################################################################
-# This code creates the correlation plot used in Figure 6 of the main text
-png(filename = "plots/cor/spear_cor_plot.png", width = 800, height = 800)
-corrplot(cor_mat_sp, diag = F, type = "lower")
-dev.off()
 
 
 ################################################################################
