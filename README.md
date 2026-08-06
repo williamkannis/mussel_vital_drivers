@@ -85,7 +85,7 @@ Finally, SEM residuals are tested for spatial autocorretion using Moran's I.
 
 <ins>Output:</ins> `Prediction rasters`, `plots/cor`, `plots/moran_tables`
 
-<br>
+
 ### Plotting
 **NOTE:** Raw R plots and tables used to create manuscript figures can be found 
 in the `plots` directory.
@@ -99,7 +99,7 @@ rate experiments.
 
 <ins>Output:</ins> `plots/summary`
 
-<br>
+
 **Script:** `06_direct_effect_plots.R`
 
 <ins>Purpose:</ins> Creates direct effect plots for every pathway in each vital 
@@ -110,7 +110,7 @@ rate SEM.
 
 <ins>Output:</ins> `plots/direct`
 
-<br>
+
 **Script:** `07_total_effect_plots.R`
 
 <ins>Purpose:</ins> Creates total effect predictions of temperature and 
